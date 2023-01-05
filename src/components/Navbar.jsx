@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { debounce } from './utilities/helpers';
-import './navbar-styles.css'
+import { debounce } from '../utilities/helpers';
+import '../assets/navbar-styles.css'
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -23,8 +23,13 @@ const Navbar = () => {
 
 
   return (
-    <div className='nav-container' style={{top: visible ? '0' : '-60px' }}>
-      Some Company Inc.
+    <div className='nav-container' style={{top: visible ? '0' : '-130px' }}>
+      <h2 className='nav-brand'>MichaelMurray</h2>
+      <div className="nav-links">
+        <a href="#" >Projects</a>
+        <a href="#" >About Me</a>
+        <a href="#" >Contact</a>
+      </div>
     </div>
   );
 };
