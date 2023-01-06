@@ -1,0 +1,26 @@
+.vertical-line {
+  border-left: 1px solid rgba(238, 238, 238, 0.1);
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+.down-arrow {
+  object-position: center;
+  position: absolute;
+  height: 96px;
+  width: 96px;
+  top: 80%;
+  left: 35%;
+  margin-right: 10px;
+  transform: translate(-50%, 0);
+}
+.about-me-title {
+  display: inline-block;
+}
+
+.about-me-text p {
+  color: rgba(238, 238, 238, 0.75);
+  font-weight: 300;
+  font-size: 18px;
+}

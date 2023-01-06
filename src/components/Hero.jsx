@@ -1,17 +1,17 @@
 import React from "react";
 import "../assets/hero-styles.css"
 import personOne from "../assets/person-1.svg"
-import shadow from "../assets/shadow.png"
+import shadow from "../assets/shadow.svg"
 
 export default function Hero() {
     return(
     <div className="hero">
         <div className="hero-text">
-            <h1 className="title1">SOFTWARE</h1>
-            <h1 className="title2">DEVELOPER</h1>
+            <h1 className="title1">MICHAEL MURRAY</h1>
+            <h1 className="title2">SOFTWARE DEVELOPER</h1>
             <div className="hero-buttons">
-                <button className="hero-btn" id="projects">Projects &nbsp; <i class="fa-solid fa-screwdriver-wrench"></i></button>
-                <button className="hero-btn" id="lets-talk">Let's Talk </button>
+                <a href="#" className="hero-btn" id="projects">Projects &nbsp; <i className="fa-solid fa-screwdriver-wrench"></i></a >
+                <a href="#" className="hero-btn" id="lets-talk">Let's Talk </a >
             </div>
         </div>
         <div className="hero-images">
