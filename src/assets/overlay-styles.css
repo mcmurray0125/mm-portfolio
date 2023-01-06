@@ -1,8 +1,8 @@
 .vertical-line {
   border-left: 1px solid rgba(238, 238, 238, 0.1);
-  height: 200%;
+  height: calc(100% + 130px);
   position: absolute;
-  top: 0;
+  top: -130px;
   left: 35%;
 }
 .down-arrow {
@@ -10,17 +10,8 @@
   position: absolute;
   height: 96px;
   width: 96px;
-  top: 80%;
+  top: 25%;
   left: 35%;
   margin-right: 10px;
   transform: translate(-50%, 0);
-}
-.about-me-title {
-  display: inline-block;
-}
-
-.about-me-text p {
-  color: rgba(238, 238, 238, 0.75);
-  font-weight: 300;
-  font-size: 18px;
 }

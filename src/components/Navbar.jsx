@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { debounce } from '../utilities/helpers';
+import {Link} from "react-scroll"
 import '../assets/navbar-styles.css'
 
 const Navbar = () => {
@@ -26,8 +27,8 @@ const Navbar = () => {
     <div className='nav-container' style={{top: visible ? '0' : '-130px' }}>
       <h2 className='nav-brand'>MichaelMurray</h2>
       <div className="nav-links">
-        <a href="#" >Projects</a>
-        <a href="#" >About Me</a>
+        <Link to="about-me" spy={true} smooth={true} offset={-100} duration={1000} >About Me</Link>
+        <Link to="projects" spy={true} smooth={true} offset={50} duration={1200} >Projects</Link>
         <a href="#" >Contact</a>
       </div>
     </div>

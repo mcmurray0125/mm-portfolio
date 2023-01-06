@@ -13,7 +13,7 @@
 .nav-brand {
   font-family: "Oswald", sans-serif;
   margin-right: auto;
-  color: #eeeeee;
+  color: var(--second-color);
   font-weight: 700;
   font-size: 1.5rem;
   padding-left: 96px;
@@ -24,20 +24,23 @@
   padding-right: 96px;
 }
 .nav-links a {
+  cursor: pointer;
   border: 1px solid rgb(203, 115, 0, 0);
   border-radius: 4px;
   padding: 4px 9px;
   font-weight: 400;
   font-size: 18px;
   white-space: nowrap;
-  color: #eeeeee;
+  color: var(--second-color);
   text-decoration: none;
   max-width: 400px;
   margin-left: 4rem;
-  transition: border 0.15s, border-radius 0.15s, background-color 2s;
+  transition: border 0.15s, border-radius 0.15s, background-color 1.2s,
+    transform 0.15s;
 }
 .nav-links a:hover {
-  border: 1px solid rgb(203, 115, 0);
+  transform: scale(1.1);
+  border: 1px solid var(--main-color);
   border-radius: 4px;
-  background-color: rgba(106, 77, 38, 0.679);
+  background-color: #0067306f;
 }

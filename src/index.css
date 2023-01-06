@@ -1,6 +1,13 @@
+:root {
+  --main-color: #00b553;
+  --second-color: #eeeeee;
+  --grey-color: rgba(57, 62, 70, 0.75);
+  --title-fs: 4rem;
+}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,4 +15,5 @@ body {
   height: 100%;
   max-width: 100vw;
   background-color: #222831;
+  position: relative;
 }

@@ -1,14 +1,35 @@
 import personTwo from "../assets/person-2.svg"
 import shadow from "../assets/shadow.svg"
 import "../assets/aboutme-styles.css"
+import React from "react"
+import { useEffect } from "react"
 
 export default function AboutMe() {
+    const [scrolled, setScrolled] = React.useState({opacity: 0})
+    
+    const listenScrollEvent = (event) => {
+      if (window.scrollY < 750) {
+        return setScrolled({opacity: 0})
+      } else if (window.scrollY > 749) {
+        return setScrolled({opacity: 1})
+      } 
+    }
+    
+    useEffect(() => {
+      window.addEventListener('scroll', listenScrollEvent);
+    
+      return () =>
+        window.removeEventListener('scroll', listenScrollEvent);
+    }, []);
+    
     return(
-        <div className="about-me">
+        <div className="about-me" id="about-me">
             <div className="about-me-text">
                 <h1 id="about"className="about-me-title">About</h1>
                 <h1 id="me"className="about-me-title">me</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam repellat error consectetur corrupti doloremque. In quisquam alias quos consequatur distinctio dolor pariatur repudiandae assumenda, debitis vel quaerat doloremque beatae explicabo?</p>
+                <div className="about-me-info" style={scrolled}>
+                    <p>As an enthusiastic software developer, I have a diverse background in art teaching. However, I have always had a love for technology and a passion for learning new things. When I decided to start coding, it felt like it was the perfect fit for my interests and personality. Through my development experience, I have realized that coding can be a highly creative process, as it allows me to build and design my own creations through code.</p>
+                </div>
             </div>
             <div className="about-me-images">
                 <img id="person-two" src={personTwo} alt="person-coding-two" />
