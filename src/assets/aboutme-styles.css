@@ -13,7 +13,7 @@
   border-bottom: 1px solid rgba(238, 238, 238, 0.1);
 }
 .about-me-text {
-  bottom: 15vh;
+  bottom: 5vh;
   left: 10vw;
   position: relative;
   flex: 3;
@@ -54,10 +54,21 @@
 
 #person-two {
   max-width: 413px;
+  position: relative;
+  left: 191px;
+  top: 473px;
+}
+#doodle-tile {
+  position: relative;
+  z-index: -5;
+  opacity: 0.5;
+  left: 81px;
+  width: 665px;
+  bottom: 112px;
 }
 .about-me-images {
   position: relative;
-  padding-top: 100px;
+  bottom: 5rem;
   right: 10vw;
   display: flex;
   flex-direction: column;
@@ -65,7 +76,25 @@
   z-index: -2;
 }
 #shadow-two {
-  position: relative;
+  position: absolute;
+  width: 348px;
   bottom: 15px;
+  right: 100px;
   z-index: -5;
+}
+
+#note {
+  position: relative;
+  bottom: 590px;
+}
+#lightbulb {
+  position: relative;
+  bottom: 452px;
+  left: 340px;
+}
+#arrow {
+  position: relative;
+  height: 169px;
+  top: 109px;
+  left: 70px;
 }

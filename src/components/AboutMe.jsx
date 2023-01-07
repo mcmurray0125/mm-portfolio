@@ -1,8 +1,12 @@
 import personTwo from "../assets/person-2.svg"
 import shadow from "../assets/shadow.svg"
+import doodleTile from "../assets/doodle-tile.svg"
 import "../assets/aboutme-styles.css"
 import React from "react"
 import { useEffect } from "react"
+import lightbulb from '../assets/lightbulb.svg'
+import musicNote from '../assets/music-note.svg'
+import arrow from '../assets/arrow.svg'
 
 export default function AboutMe() {
     const [scrolled, setScrolled] = React.useState({opacity: 0})
@@ -30,10 +34,14 @@ export default function AboutMe() {
                 <div className="about-me-info" style={scrolled}>
                     <p>As an enthusiastic software developer, I have a diverse background in art teaching. However, I have always had a love for technology and a passion for learning new things. When I decided to start coding, it felt like it was the perfect fit for my interests and personality. Through my development experience, I have realized that coding can be a highly creative process, as it allows me to build and design my own creations through code.</p>
                 </div>
+                <img id="note" src={musicNote} alt="note" />
+                <img id="arrow" src={arrow} alt="arrow1" />
+                <img id="lightbulb" src={lightbulb} alt="lightbulb" />
             </div>
             <div className="about-me-images">
-                <img id="person-two" src={personTwo} alt="person-coding-two" />
                 <img id="shadow-two" src={shadow} alt="shadow" />
+                <img id="person-two" src={personTwo} alt="person-coding-two" />
+                <img id='doodle-tile' src={doodleTile} alt="doodle-tile" />
             </div>
         </div>
     )

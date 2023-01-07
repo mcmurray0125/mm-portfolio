@@ -3,6 +3,7 @@
   --second-color: #eeeeee;
   --grey-color: rgba(57, 62, 70, 0.75);
   --title-fs: 4rem;
+  --small-fs: 18px;
 }
 * {
   margin: 0;

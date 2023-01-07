@@ -27,9 +27,9 @@ const Navbar = () => {
     <div className='nav-container' style={{top: visible ? '0' : '-130px' }}>
       <h2 className='nav-brand'>MichaelMurray</h2>
       <div className="nav-links">
-        <Link to="about-me" spy={true} smooth={true} offset={-100} duration={1000} >About Me</Link>
-        <Link to="projects" spy={true} smooth={true} offset={50} duration={1200} >Projects</Link>
-        <a href="#" >Contact</a>
+        <Link to="about-me" spy={true} smooth={true} offset={-100} duration={900} >About Me</Link>
+        <Link to="projects" spy={true} smooth={true} offset={0} duration={1200} >Projects</Link>
+        <Link to="contact" spy={true} smooth={true} offset={0} duration={1400} >Contact</Link>
       </div>
     </div>
   );

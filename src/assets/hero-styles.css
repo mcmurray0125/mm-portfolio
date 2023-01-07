@@ -17,8 +17,8 @@
   height: -moz-calc(100vh - 130px); /* firefox */
 }
 .hero-text {
-  margin-bottom: 22rem;
   position: relative;
+  margin-bottom: 6rem;
 }
 
 .title1 {
@@ -40,7 +40,7 @@
 .hero-btn {
   text-decoration: none;
   border: none;
-  border-radius: 20px;
+  border-radius: 24px;
   padding: 10px 2.5rem;
   font-weight: 700;
   font-size: 18px;
@@ -55,18 +55,33 @@
 .hero-btn#lets-talk {
   background-color: var(--main-color);
 }
+#curly-arrow {
+  opacity: 0.22;
+  position: relative;
+  left: -100px;
+  bottom: 240px;
+}
 
 .hero-images {
   display: flex;
   flex-direction: column;
 }
 #person-one {
-  margin-top: 150px;
-  max-width: 400px;
+  position: absolute;
+  bottom: 135px;
+  width: 400px;
+}
+#doodle-circle {
+  position: relative;
+  opacity: 0.5;
+  width: 450px;
+  z-index: -10;
+  bottom: 4.5rem;
+  left: 4rem;
 }
 #shadow {
   position: relative;
   z-index: -5;
-  bottom: 100px;
-  max-width: 348px;
+  bottom: 10px;
+  width: 348px;
 }
