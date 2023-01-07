@@ -11,9 +11,11 @@ export default function Contact() {
             <div className="contact-text">
                 <h1 id="c-title-1" className="contact-title">Got a project in</h1>
                 <h1 id="c-title-2" className="contact-title">mind?</h1>
-                <img id='person-three' src={personThree} alt="person-3" />
-                <img id='arrow-two' src={arrowTwo} alt="arrow-2" />
-                <img id='shadow-three' src={shadow} alt="shadow-3" />
+                <div className="contact-images">
+                    <img id='person-three' src={personThree} alt="person-3" />
+                    <img id='arrow-two' src={arrowTwo} alt="arrow-2" />
+                    <img id='shadow-three' src={shadow} alt="shadow-3" />
+                </div>
             </div>
             <div className="form">
                 <div className="form-top">
@@ -28,7 +30,7 @@ export default function Contact() {
                 </div>
                 <label htmlFor="message">Your message</label>
                 <textarea id= 'message' name='message' placeholder='Message'/>
-{                <button id='contact-btn'type="submit">Send Message &nbsp;<i class="fa-regular fa-paper-plane"></i></button>}
+{                <button id='contact-btn'type="submit">Send Message &nbsp;<i className="fa-regular fa-paper-plane"></i></button>}
             </div>
         </section>
     )

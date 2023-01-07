@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css"
 import "../assets/hero-styles.css"
 import personOne from "../assets/person-1.svg"
 import shadow from "../assets/shadow.svg"

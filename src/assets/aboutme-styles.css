@@ -17,6 +17,7 @@
   left: 10vw;
   position: relative;
   flex: 3;
+  min-width: 480px;
 }
 .about-me-title {
   display: inline-block;
@@ -37,6 +38,9 @@
   color: rgba(238, 238, 238, 0.75);
   font-weight: 300;
   font-size: 18px;
+}
+.about-me-text img {
+  z-index: -5;
 }
 .about-me-info {
   background-color: var(--grey-color);

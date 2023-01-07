@@ -2,7 +2,7 @@
   --main-color: #00b553;
   --second-color: #eeeeee;
   --grey-color: rgba(57, 62, 70, 0.75);
-  --title-fs: 4rem;
+  --title-fs: clamp(2rem, 6rem, 7rem);
   --small-fs: 18px;
 }
 * {
