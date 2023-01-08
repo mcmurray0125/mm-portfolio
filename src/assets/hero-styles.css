@@ -20,9 +20,15 @@
 }
 .hero-text {
   position: relative;
-  height: inherit;
+  max-height: 100vh;
   margin-bottom: 2vh;
   max-width: 50vw;
+  flex: 2;
+}
+.hero-titles {
+  display: flex;
+flex-direction: column;
+gap: clamp(2rem, 4vh, 2vh);
 }
 
 .title1 {
@@ -75,25 +81,31 @@
 .hero-images {
   display: flex;
   flex-direction: column;
-  max-width: 50vw;
+  max-width: 450px;
+  height: 50%;
+  position: relative;
+  flex: 1;
+  align-items: center;
 }
 
 #person-one {
   position: absolute;
-  bottom: 225px;
-  width: 400px;
+  bottom: -20px;
+  width: 100%;
+  object-fit: fill;
+  height: 100%;
 }
 #doodle-circle {
-  position: relative;
+  position: absolute;
   opacity: 0.5;
-  width: 450px;
-  z-index: -10;
-  bottom: 4.5rem;
-  left: 4rem;
+  width: 100%;
+  z-index: -5;
+  bottom: 3.5rem;
+  height: 100%;
 }
 #shadow {
-  position: relative;
+  position: absolute;
   z-index: -5;
-  bottom: 10px;
-  width: 348px;
+  bottom: -26px;
+  width: 100%;
 }
