@@ -1,9 +1,9 @@
 .contact {
   display: flex;
   height: 100vh;
-  width: 100%;
-  padding: 0 6rem;
-  align-items: center;
+  width: 100vw;
+  padding-left: var(--section-padding);
+  padding-right: var(--section-padding);  align-items: center;
   justify-content: center;
   gap: 150px;
 }
@@ -14,11 +14,11 @@
   bottom: 134px;
 }
 .contact-title#c-title-1 {
-  font-size: var(--title-fs);
+  font-size: var(--section-fs);
   color: var(--second-color);
 }
 .contact-title#c-title-2 {
-  font-size: var(--title-fs);
+  font-size: var(--section-fs);
   color: var(--main-color);
 }
 .form {

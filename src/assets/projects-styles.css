@@ -10,7 +10,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 6rem;
+  padding-left: var(--section-padding);
+  padding-right: var(--section-padding);
 }
 .projects::before {
   content: "";
@@ -25,13 +26,13 @@
 }
 
 #p-title-1 {
-  font-size: var(--title-fs);
+  font-size: var(--section-fs);
   display: inline-block;
   margin-right: 1rem;
   color: var(--second-color);
 }
 #p-title-2 {
-  font-size: var(--title-fs);
+  font-size: var(--section-fs);
   display: inline-block;
   color: var(--main-color);
 }

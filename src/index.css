@@ -2,8 +2,10 @@
   --main-color: #00b553;
   --second-color: #eeeeee;
   --grey-color: rgba(57, 62, 70, 0.75);
-  --title-fs: clamp(2rem, 6rem, 7rem);
+  --hero-fs: clamp(2rem, 10vw + 1rem, 6rem);
+  --section-fs: 4rem;
   --small-fs: 18px;
+  --section-padding: 5vw;
 }
 * {
   margin: 0;

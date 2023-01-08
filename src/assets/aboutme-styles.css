@@ -9,11 +9,11 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  padding: 0 96px;
-  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+  padding-left: var(--section-padding);
+  padding-right: var(--section-padding);  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
 }
 .about-me-text {
-  bottom: 5vh;
+  top: 3vh;
   left: 10vw;
   position: relative;
   flex: 3;
@@ -25,13 +25,13 @@
 .about-me-title#about {
   color: var(--second-color);
   font-weight: 700;
-  font-size: var(--title-fs);
+  font-size: var(--section-fs);
   margin-right: 1rem;
 }
 .about-me-title#me {
   color: var(--main-color);
   font-weight: 700;
-  font-size: var(--title-fs);
+  font-size: var(--section-fs);
 }
 
 .about-me-text p {

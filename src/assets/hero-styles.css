@@ -9,9 +9,10 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  margin-top: 130px;
+  margin-top: calc(0vh + 130px);
   width: 100vw;
-  padding: 60px 96px 0px;
+  padding-left: var(--section-padding);
+  padding-right: var(--section-padding);
   height: calc(100vh - 130px);
   height: -o-calc(100vh - 130px); /* opera */
   height: -webkit-calc(100vh - 130px); /* google, safari */
@@ -19,19 +20,27 @@
 }
 .hero-text {
   position: relative;
-  margin-bottom: 6rem;
+  height: inherit;
+  margin-bottom: 2vh;
+  max-width: 50vw;
 }
 
 .title1 {
   color: var(--second-color);
   font-weight: 700;
-  font-size: var(--title-fs);
+  font-size: var(--hero-fs);
+  white-space: nowrap;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .title2 {
   margin-top: -50px;
   color: var(--main-color);
   font-weight: 700;
-  font-size: var(--title-fs);
+  font-size: var(--hero-fs);
+  white-space: nowrap;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .hero-buttons {
   display: flex;
@@ -66,6 +75,7 @@
 .hero-images {
   display: flex;
   flex-direction: column;
+  max-width: 50vw;
 }
 
 #person-one {
