@@ -3,15 +3,18 @@
   height: 100vh;
   width: 100vw;
   padding-left: var(--section-padding);
-  padding-right: var(--section-padding);  align-items: center;
+  padding-right: var(--section-padding);
+  align-items: center;
   justify-content: center;
-  gap: 150px;
+  gap: 5vw;
 }
 .contact-text {
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 134px;
+  max-height: 100vh;
+  margin-bottom: 49vh;
+  max-width: 50vw;
 }
 .contact-title#c-title-1 {
   font-size: var(--section-fs);
@@ -22,6 +25,7 @@
   color: var(--main-color);
 }
 .form {
+  max-width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -29,6 +33,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 .user-name,
 .user-email {
@@ -48,7 +53,7 @@ label {
   font-family: "Poppins", sans-serif;
   font-size: var(--small-fs);
   font-weight: 700;
-  width: 288px;
+  width: 100%;
   padding: 1rem 2rem;
   border: none;
   border-radius: 1rem;
@@ -60,8 +65,7 @@ label {
   font-size: var(--small-fs);
   font-weight: 700;
   padding: 1rem 2rem;
-  min-width: 300px;
-  max-width: 600px;
+  max-width: 100%;
   height: 280px;
   min-height: 4rem;
   max-height: 550px;
@@ -75,31 +79,36 @@ textarea:focus {
   outline: 1px solid var(--main-color);
 }
 .contact-images {
-  left: 174px;
-  top: 50px;
-  position: absolute;
+  height: 100%;
+  max-width: 450px;
+  position: relative;
   z-index: -5;
 }
 #arrow-two {
   position: absolute;
-  width: 198px;
-  left: 15px;
-  top: 257px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 45%;
+  margin-left: -50%;
 }
 #person-three {
   position: absolute;
   height: 348px;
-  left: 228px;
-  top: 224px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50%;
 }
 
 #shadow-three {
   position: absolute;
-  width: 190px;
-  height: 24px;
-  left: 214px;
-  top: 561px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: -5;
+  margin-top: 96%;
+  margin-left: -13%;
 }
 #contact-btn {
   background-color: var(--main-color);
@@ -113,6 +122,6 @@ textarea:focus {
   color: var(--second-color);
   cursor: pointer;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  width: 236px;
+  width: 239px;
   height: 3rem;
 }

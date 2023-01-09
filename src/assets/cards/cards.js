@@ -11,14 +11,14 @@ export default [
         id: 2,
         title: "Meme Creator",
         about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet justo nec neque rutrum dapibus. Nulla a laoreet libero, eu egestas est. Donec odio diam, lobortis hendrerit sapien a, ultricies hendrerit dui. Nulla fermentum lacinia nibh vel mollis. Donec justo.",
-        img: "https://picsum.photos/1280/720",
+        img: "https://picsum.photos/640/360",
         link: "#",
     },
     {
         id: 3,
         title: "Bug Tracker",
         about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu diam eu justo pharetra cursus. Donec mattis turpis urna, vitae consequat metus commodo et. Quisque vulputate scelerisque feugiat. Fusce lectus leo, facilisis sit amet eleifend at, pretium quis odio. Quisque.",
-        img: "https://picsum.photos/id/32/1280/720",
+        img: "https://picsum.photos/id/3/640/360",
         link: "#",
     },
     {
