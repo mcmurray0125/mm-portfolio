@@ -21,14 +21,14 @@
 .hero-text {
   position: relative;
   max-height: 100vh;
-  margin-bottom: 2vh;
+  margin-bottom: 29vh;
   max-width: 50vw;
   flex: 2;
 }
 .hero-titles {
   display: flex;
-flex-direction: column;
-gap: clamp(2rem, 4vh, 2vh);
+  flex-direction: column;
+  gap: clamp(2rem, 4vh, 6vh);
 }
 
 .title1 {
@@ -37,7 +37,6 @@ gap: clamp(2rem, 4vh, 2vh);
   font-size: var(--hero-fs);
   white-space: nowrap;
   text-align: justify;
-  text-justify: inter-word;
 }
 .title2 {
   margin-top: -50px;
@@ -73,9 +72,12 @@ gap: clamp(2rem, 4vh, 2vh);
 }
 #curly-arrow {
   opacity: 0.22;
-  position: relative;
-  left: -100px;
-  bottom: 240px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -57%;
+  height: 80%;
 }
 
 .hero-images {
@@ -90,22 +92,30 @@ gap: clamp(2rem, 4vh, 2vh);
 
 #person-one {
   position: absolute;
-  bottom: -20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
-  object-fit: fill;
   height: 100%;
 }
 #doodle-circle {
   position: absolute;
-  opacity: 0.5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
-  z-index: -5;
-  bottom: 3.5rem;
   height: 100%;
+  margin-top: -20%;
+  margin-left: 16%;
+  z-index: -5;
+  opacity: 0.5;
 }
 #shadow {
   position: absolute;
-  z-index: -5;
-  bottom: -26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
+  margin-top: 43%;
+  z-index: -5;
 }

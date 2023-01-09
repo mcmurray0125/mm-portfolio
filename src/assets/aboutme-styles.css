@@ -10,17 +10,21 @@
   justify-content: center;
   align-items: center;
   padding-left: var(--section-padding);
-  padding-right: var(--section-padding);  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+  padding-right: var(--section-padding);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
 }
 .about-me-text {
-  top: 3vh;
-  left: 10vw;
   position: relative;
   flex: 3;
-  min-width: 480px;
+  max-width: 480px;
+  margin-bottom: 16vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 .about-me-title {
   display: inline-block;
+  white-space: nowrap;
 }
 .about-me-title#about {
   color: var(--second-color);
@@ -45,6 +49,7 @@
 .about-me-info {
   background-color: var(--grey-color);
   padding: 1rem;
+  min-width: 246px;
   max-width: 500px;
   border-radius: 0.5rem;
   backdrop-filter: blur(2px);
@@ -57,23 +62,31 @@
 }
 
 #person-two {
-  max-width: 413px;
-  position: relative;
-  left: 191px;
-  top: 473px;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  margin-top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #doodle-tile {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: -5;
+  margin-top: -24%;
   opacity: 0.5;
-  left: 81px;
-  width: 665px;
-  bottom: 112px;
+  height: 120%;
+  max-width: 140%;
 }
 .about-me-images {
   position: relative;
-  bottom: 5rem;
-  right: 10vw;
+  height: 40%;
+  margin-top: 22vh;
+  min-width: 100px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -81,24 +94,36 @@
 }
 #shadow-two {
   position: absolute;
-  width: 348px;
-  bottom: 15px;
-  right: 100px;
+  top: 50%;
+  left: 50%;
+  max-height: 32px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin-top: 46%;
   z-index: -5;
 }
 
 #note {
-  position: relative;
-  bottom: 590px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -29vh;
+  margin-left: -40%;
 }
 #lightbulb {
-  position: relative;
-  bottom: 452px;
-  left: 340px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -16vh;
+  margin-left: 50%;
 }
 #arrow {
-  position: relative;
-  height: 169px;
-  top: 109px;
-  left: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 31vh;
+  margin-left: 15%;
 }

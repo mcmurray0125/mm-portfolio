@@ -2,8 +2,8 @@
   --main-color: #00b553;
   --second-color: #eeeeee;
   --grey-color: rgba(57, 62, 70, 0.75);
-  --hero-fs: clamp(1rem, 4vw, 6rem);
-  --section-fs: 4rem;
+  --hero-fs: clamp(2rem, 4vw, 6rem);
+  --section-fs: clamp(3rem, 3vw, 4.5rem);
   --small-fs: 18px;
   --section-padding: 5vw;
 }

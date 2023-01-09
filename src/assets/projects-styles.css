@@ -22,9 +22,12 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
+  z-index: -2;
   opacity: 0.2;
 }
-
+.projects-text {
+  margin-bottom: 3vh;
+}
 #p-title-1 {
   font-size: var(--section-fs);
   display: inline-block;
@@ -36,10 +39,8 @@
   display: inline-block;
   color: var(--main-color);
 }
-.projects-text {
-  margin-bottom: 5rem;
-}
-.cards-container {
+
+/* .cards-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -49,9 +50,9 @@
 .card {
   line-height: 280px;
   text-align: center;
-  width: 370px;
-  height: 280px;
+  width: 35vw;
+  height: 40vh;
   background-color: var(--grey-color);
   border-radius: 0.5rem;
   backdrop-filter: blur(2px);
-}
+} */
