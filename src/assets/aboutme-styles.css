@@ -127,3 +127,15 @@
   margin-top: 31vh;
   margin-left: 15%;
 }
+
+@media screen and (max-width: 835px) {
+  
+  .about-me-text {
+    margin-bottom: 4vh;
+    max-height: 90%;
+  }
+  
+  .about-me-info {
+    height: 29%;
+  }
+}

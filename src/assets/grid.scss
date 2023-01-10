@@ -18,6 +18,9 @@ $ratio: 56.25%;
 	display: grid;
     width: 100%;
 	grid-gap: $gutter;
+    box-shadow: 0px 0px 20px black;
+    padding: 2vw;
+    border-radius: 8px;
 	/*
 	Minimum Width = 368px
 	Maximum Width = 1fr i.e full width
@@ -29,9 +32,9 @@ $ratio: 56.25%;
 
 	// auto-fit - this will fit all the cards in single row if the browser's width is equal to width of all the cards combine + gap
 	// grid-template-columns: repeat(auto-fit, minmax($minWidth, $maxWidth));
-	
+    
 	@media screen and (max-width: 320px) {
-		grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
+        grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
 	}
 }
 
@@ -43,6 +46,7 @@ $ratio: 56.25%;
 	border-radius: 8px;
 	overflow: hidden;
 	position: relative;
+    box-shadow: 0px 0px 8px var(--main-color);
 }
 
 
@@ -128,3 +132,37 @@ $ratio: 56.25%;
 .card-btn:hover {
     border-bottom: 1px solid var(--main-color);
 }
+
+@media only screen and (max-width: 925px) {
+    .cards-container{
+    // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
+    grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
+    overflow-y: scroll;
+    max-height: 80%;
+    max-width: 90%;
+    border-radius: 0.5rem;
+    }
+    .card-btn {
+        font-size: 3.5vw;
+    }
+    .card-btn-wrapper {
+        max-width: 100%;
+    }
+    .about-text {
+        font-size: 3.3vw
+    }
+    .projects-text {
+        margin-bottom: 1vh;
+    }
+    #p-title-1 {
+        font-size: 7vw;
+        margin-right: 2vw;
+        display: inline-block;
+        color: var(--second-color);
+      }
+    #p-title-2 {
+        font-size: 7vw;
+        display: inline-block;
+        color: var(--main-color);
+      }
+  }
