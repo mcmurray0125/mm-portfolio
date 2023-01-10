@@ -4,6 +4,7 @@ import Overlay from "./components/Overlay"
 import AboutMe from "./components/AboutMe"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 export default function App() {
     return (
@@ -14,6 +15,7 @@ export default function App() {
             <AboutMe />
             <Projects />
             <Contact />
+            <Footer />
         </div>
     )
 }
