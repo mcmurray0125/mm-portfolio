@@ -14,7 +14,7 @@
   width: 40px;
   position: fixed;
   bottom: 0px;
-  left: 2vw;
+  left: 1vw;
   right: auto;
   z-index: 10;
   color: var(--main-color);
@@ -38,7 +38,6 @@
 
 .socials li a {
   color: var(--main-color);
-  padding: 10px;
 }
 .socials li i {
   font-size: 20px;

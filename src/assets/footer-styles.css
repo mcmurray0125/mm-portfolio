@@ -7,6 +7,7 @@
   align-items: center;
   border-top: 1px solid rgba(238, 238, 238, 0.1);
   z-index: 100;
+  padding: 2vh 0;
   justify-content: center;
   gap: clamp(1rem, 5vh, 7vh);
 }
@@ -48,10 +49,14 @@
 
 @media screen and (max-width: 585px) {
   .footer {
-    gap: 1rem;
+    gap: 2vh;
   }
   .footer-links {
     flex-direction: column;
     gap: initial;
+  }
+  .languages {
+    font-size: clamp(1.5rem, 3vw, 5rem);
+    gap: 10vw;
   }
 }

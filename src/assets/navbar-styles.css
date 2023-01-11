@@ -45,7 +45,7 @@
   background-color: #0067306f;
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 750px) {
   .nav-container {
     justify-content: center;
     flex-direction: column;

@@ -133,16 +133,11 @@ $ratio: 56.25%;
     border-bottom: 1px solid var(--main-color);
 }
 
-
-
-@media only screen and (max-width: 925px) {
-    .cards-container{
-    // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
-    grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
-    overflow-y: scroll;
-    max-height: 80%;
-    max-width: 90%;
-    border-radius: 0.5rem;
+@media only screen and (max-width: 450px) {
+    .cards-container {
+        max-height: 100%;
+        width: 84%;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
     .card-btn {
         font-size: 3.5vw;
@@ -151,7 +146,41 @@ $ratio: 56.25%;
         max-width: 100%;
     }
     .about-text {
-        font-size: 3.3vw
+        font-size: 3vw
+    }
+    .projects-text {
+        margin-bottom: 1vh;
+    }
+    #p-title-1 {
+        font-size: 7vw;
+        margin-right: 2vw;
+        display: inline-block;
+        color: var(--second-color);
+        }
+    #p-title-2 {
+        font-size: 7vw;
+        display: inline-block;
+        color: var(--main-color);
+        }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 948px) {
+    .cards-container{
+    // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
+    grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
+    overflow-y: scroll;
+    max-height: 100%;
+    max-width: 50%;
+    border-radius: 0.5rem;
+    }
+    .card-btn {
+        font-size: 1.8vw;
+    }
+    .card-btn-wrapper {
+        max-width: 100%;
+    }
+    .about-text {
+        font-size: 1.8vw
     }
     .projects-text {
         margin-bottom: 1vh;
@@ -169,8 +198,6 @@ $ratio: 56.25%;
       }
   }
 
-  @media only screen and (max-width: 400px) {
-    .cards-container {
-        max-height: 100%
-    }
-}
+
+
+//calc(500px - 20vw)
