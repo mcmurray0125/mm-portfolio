@@ -9,10 +9,10 @@ export default [
     },
     {
         id: 2,
-        title: "Meme Creator",
-        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet justo nec neque rutrum dapibus. Nulla a laoreet libero, eu egestas est. Donec odio diam, lobortis hendrerit sapien a, ultricies hendrerit dui. Nulla fermentum lacinia nibh vel mollis. Donec justo.",
-        img: 'https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
-        link: "#",
+        title: "MM Portfolio Website",
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus neque non finibus bibendum. Mauris consequat pretium varius. Donec non lobortis lacus, quis pulvinar sapien. Aliquam erat volutpat. Curabitur blandit magna orci, vitae rutrum est feugiat vel. Curabitur commodo finibus.",
+        img: '/images/portfolio-img-2.png',
+        link: 'https://github.com/mcmurray0125/mm-portfolio',
     },
     {
         id: 3,
@@ -23,9 +23,9 @@ export default [
     },
     {
         id: 4,
-        title: "MM Portfolio Website",
-        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus neque non finibus bibendum. Mauris consequat pretium varius. Donec non lobortis lacus, quis pulvinar sapien. Aliquam erat volutpat. Curabitur blandit magna orci, vitae rutrum est feugiat vel. Curabitur commodo finibus.",
-        img: '/images/portfolio-img-2.png',
-        link: 'https://github.com/mcmurray0125/mm-portfolio',
+        title: "Meme Creator",
+        about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet justo nec neque rutrum dapibus. Nulla a laoreet libero, eu egestas est. Donec odio diam, lobortis hendrerit sapien a, ultricies hendrerit dui. Nulla fermentum lacinia nibh vel mollis. Donec justo.",
+        img: 'https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+        link: "#",
     },
 ]
