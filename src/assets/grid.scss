@@ -133,6 +133,8 @@ $ratio: 56.25%;
     border-bottom: 1px solid var(--main-color);
 }
 
+
+
 @media only screen and (max-width: 925px) {
     .cards-container{
     // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
@@ -166,3 +168,9 @@ $ratio: 56.25%;
         color: var(--main-color);
       }
   }
+
+  @media only screen and (max-width: 400px) {
+    .cards-container {
+        max-height: 100%
+    }
+}

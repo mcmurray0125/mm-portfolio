@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='nav-container' style={{top: visible ? '0' : '-130px' }}>
+    <div className='nav-container' style={{top: visible ? '0' : '-130px' }} id="navbar">
       <h2 className='nav-brand'>MichaelMurray</h2>
       <div className="nav-links">
         <Link to="about-me" spy={true} smooth={true} offset={-100} duration={900} >About Me</Link>
