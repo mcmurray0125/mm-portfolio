@@ -1,6 +1,6 @@
 import '../assets/projects-styles.css'
+import data from '../assets/cards'
 import '../assets/grid.scss'
-import data from '../assets/cards/cards'
 import Card from './Card'
 
 export default function Projects() {
