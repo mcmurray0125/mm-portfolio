@@ -3,7 +3,7 @@ export default [
         id: 1,
         title: "Todo App",
         about: "This Todo App is pit amet, consectetur adipiscing elit. Curabitur lacus risus, tincidunt non gravida a, convallis nec nunc. Fusce vel nibh sed neque fringilla maximus. Praesent gravida euismod venenatis. Mauris mauris tortor, tincidunt quis feugiat a, dictum eu felis. Donec.",
-        img: './src/assets/todo-app-img.png',
+        img: 'src/assets/todo-app-img.png',
         link: "https://mm-todo-app.netlify.app/",
         github: "https://github.com/mcmurray0125/todo-list#readme"
     },
@@ -25,7 +25,7 @@ export default [
         id: 4,
         title: "MM Portfolio Website",
         about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus neque non finibus bibendum. Mauris consequat pretium varius. Donec non lobortis lacus, quis pulvinar sapien. Aliquam erat volutpat. Curabitur blandit magna orci, vitae rutrum est feugiat vel. Curabitur commodo finibus.",
-        img: './src/assets/portfolio-img-2.png',
+        img: 'src/assets/portfolio-img-2.png',
         link: 'https://github.com/mcmurray0125/mm-portfolio',
     },
 ]
