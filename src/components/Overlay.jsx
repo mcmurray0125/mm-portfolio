@@ -38,6 +38,16 @@ export default function Overlay() {
                     </li>
                 </ul>
             </div>
+            <div orientation="right" className="right-nav">
+                <ul className="my-info">
+                    <li>
+                        <a href="tel:7737066368" target="_blank">773.706.6368</a>
+                    </li>
+                    <li>
+                        <a href="mailto:mcmurray0125@gmail.com" type="email" target="_blank">mcmurray0125@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
             <Link to="about-me" spy={true} smooth={true} offset={-100} duration={500} style={linkStyle}><img className="down-arrow" src={downArrow} alt="down-arrow" /></Link>
         </div>
     )

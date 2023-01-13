@@ -19,7 +19,17 @@
   z-index: 10;
   color: var(--main-color);
 }
-.left-nav::after {
+.right-nav {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 1vw;
+  left: auto;
+  z-index: 10;
+  color: var(--main-color);
+}
+.left-nav::after,
+.right-nav::after {
   box-sizing: inherit;
   content: "";
   display: block;
@@ -28,7 +38,8 @@
   margin: 0px auto;
   background-color: var(--main-color);
 }
-.socials {
+.socials,
+.my-info {
   list-style: none;
   color: var(--main-color);
   display: flex;
@@ -36,8 +47,15 @@
   align-items: center;
 }
 
-.socials li a {
+.socials li a,
+.my-info li a {
   color: var(--main-color);
+  font-size: 0.75rem;
+}
+.my-info li a {
+  writing-mode: vertical-rl;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .socials li i {
   font-size: 20px;

@@ -4,9 +4,9 @@
   width: 100vw;
   padding-left: var(--section-padding);
   padding-right: var(--section-padding);
-  align-items: center;
+  padding-top: 15vh;
   justify-content: center;
-  gap: 1rem;
+  gap: 5vw;
 }
 .contact-text {
   display: flex;
@@ -14,8 +14,7 @@
   align-items: center;
   position: relative;
   max-height: 60vh;
-  max-width: 50%;
-  flex: 1;
+  max-width: 40%;
 }
 .contact-titles {
   display: flex;
@@ -24,16 +23,16 @@
 .contact-title#c-title-1 {
   font-size: var(--section-fs);
   color: var(--second-color);
+  white-space: nowrap;
 }
 .contact-title#c-title-2 {
   font-size: var(--section-fs);
   color: var(--main-color);
 }
 .form {
-  max-width: 40%;
+  max-width: 60%;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 .form-top {
   display: flex;
@@ -85,20 +84,22 @@ textarea:focus {
   outline: 1px solid var(--main-color);
 }
 .contact-images {
-  height: 100%;
-  max-width: 450px;
-  position: relative;
   z-index: -5;
   flex: 1;
 }
 #arrow-two {
   position: absolute;
-  left: 120%;
+  left: 65%;
   rotate: -70deg;
 }
 #person-three {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 440px;
+  max-height: 182%;
+  margin-top: 23%;
 }
 
 #shadow-three {
@@ -109,8 +110,8 @@ textarea:focus {
   left: 50%;
   width: 75%;
   max-height: 29px;
-  margin-top: 66%;
-  margin-left: -17%;
+  margin-top: 69%;
+  margin-left: -12%;
 }
 #contact-btn {
   background-color: var(--main-color);
@@ -127,4 +128,63 @@ textarea:focus {
   width: 239px;
   max-width: 100%;
   height: 3rem;
+}
+
+@media screen and (max-width: 950px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3vh;
+  }
+  .contact-text {
+    max-width: 85%;
+  }
+  .user-name,
+  .user-email {
+    align-items: center;
+  }
+  .contact-titles {
+    align-items: center;
+  }
+  .contact-title#c-title-1 {
+    font-size: 7vw;
+
+  }
+  .contact-title#c-title-2 {
+    font-size: 7vw;
+  }
+  .form {
+    align-items: center;
+    max-width: 85%
+  }
+  #message {
+    width: 100%;
+  }
+  .contact-images {
+    z-index: -5;
+    flex: 1;
+    position: absolute;
+    height: 14vh;
+    width: 100%;
+    top: 80vh;
+  }
+  #person-three {
+    position: inherit;
+    margin-left: -30%;
+    margin-top: auto;
+    height: 100%;
+  }
+  #arrow-two {
+    position: inherit;
+    left: 44%;
+    width: 44%;
+    rotate: 196deg;
+  }
+  #shadow-three {
+    position: inherit;
+    width: 44%;
+    margin-top: 21%;
+    margin-left: -29%;
+  }
 }

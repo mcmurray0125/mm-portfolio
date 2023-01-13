@@ -1,4 +1,5 @@
 import personTwo from "../assets/person-2.svg"
+import mmImage from "../assets/mm-pic-4.jpg"
 import shadow from "../assets/shadow.svg"
 import doodleTile from "../assets/doodle-tile.svg"
 import "../assets/aboutme-styles.css"
@@ -40,7 +41,7 @@ export default function AboutMe() {
             </div>
             <div className="about-me-images">
                 <img id="shadow-two" src={shadow} alt="shadow" />
-                <img id="person-two" src={personTwo} alt="person-coding-two" />
+                <img id="person-two" src={mmImage} alt="person-coding-two" />
                 <img id='doodle-tile' src={doodleTile} alt="doodle-tile" />
             </div>
         </div>

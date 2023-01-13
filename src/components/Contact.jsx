@@ -19,7 +19,7 @@ export default function Contact() {
                     <img id='shadow-three' src={shadow} alt="shadow-3" />
                 </div>
             </div>
-            <div className="form">
+            <div className="form" action="POST" data-netlify="true" name="contact">
                 <div className="form-top">
                     <div className="user-name">
                         <label htmlFor="name">Your name</label>
@@ -32,7 +32,7 @@ export default function Contact() {
                 </div>
                 <label htmlFor="message">Your message</label>
                 <textarea id= 'message' name='message' placeholder='Message'/>
-{                <button id='contact-btn'type="submit">Send Message &nbsp;<i className="fa-regular fa-paper-plane"></i></button>}
+{                <button id='contact-btn' type="submit" value="Send Message">Send Message &nbsp;<i className="fa-regular fa-paper-plane"></i></button>}
             </div>
         </section>
     )
