@@ -23,16 +23,16 @@ export default function Contact() {
                 <div className="form-top">
                     <div className="user-name">
                         <label htmlFor="name">Your name</label>
-                        <input type="text" placeholder='Name' name='name' className='top-input' />
+                        <input type="text" placeholder='Name' name='name' id= "name" className='top-input' />
                     </div>
                     <div className="user-email">
                         <label htmlFor="email">Your email</label>
-                        <input type="email" placeholder='Email' name='email' className='top-input'/>
+                        <input id= "email" type="email" placeholder='Email' name='email' className='top-input'/>
                     </div>
                 </div>
                 <label htmlFor="message">Your message</label>
                 <textarea id= 'message' name='message' placeholder='Message'/>
-{                <button id='contact-btn' type="submit" value="Send Message">Send Message &nbsp;<i className="fa-regular fa-paper-plane"></i></button>}
+               <button id='contact-btn' type="submit" value="Send Message">Send Message &nbsp;<i className="fa-regular fa-paper-plane"></i></button>
             </div>
         </section>
     )
