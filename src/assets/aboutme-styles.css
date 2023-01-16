@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .about-me {
-  height: 90vh;
+  min-height: 100vh;
   display: flex;
   position: relative;
   justify-content: center;
@@ -62,11 +62,11 @@
 }
 
 #person-two {
-  max-width: 100%;
-  position: absolute;
+  max-width: 80%;
+  position: relative;
   max-height: 100%;
   top: 50%;
-  margin-top: 4%;
+  margin-top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -83,7 +83,6 @@
 }
 .about-me-images {
   position: relative;
-  height: 40%;
   margin-top: 22vh;
   min-width: 100px;
   max-width: 450px;
@@ -129,12 +128,11 @@
 }
 
 @media screen and (max-width: 835px) {
-  
   .about-me-text {
     margin-bottom: 4vh;
     max-height: 90%;
   }
-  
+
   .about-me-info {
     height: 29%;
   }

@@ -96,22 +96,24 @@ textarea:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   max-width: 440px;
   max-height: 182%;
-  margin-top: 23%;
+  margin-top: 24.5%;
 }
 
 #shadow-three {
-  position: absolute;
+  position: relative;
+  display: none;
   z-index: -5;
+  display: none;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
-  width: 75%;
+  width: 100%;
   max-height: 29px;
-  margin-top: 69%;
-  margin-left: -12%;
+  margin-top: 148%;
+  margin-left: -24%;
 }
 #contact-btn {
   background-color: var(--main-color);
@@ -133,9 +135,11 @@ textarea:focus {
 @media screen and (max-width: 950px) {
   .contact {
     flex-direction: column;
+    height: auto;
     align-items: center;
     justify-content: flex-start;
     padding-top: 3vh;
+    padding-bottom: 3vh;
   }
   .contact-text {
     max-width: 85%;
@@ -149,14 +153,13 @@ textarea:focus {
   }
   .contact-title#c-title-1 {
     font-size: 7vw;
-
   }
   .contact-title#c-title-2 {
     font-size: 7vw;
   }
   .form {
     align-items: center;
-    max-width: 85%
+    max-width: 85%;
   }
   #message {
     width: 100%;
@@ -164,25 +167,26 @@ textarea:focus {
   .contact-images {
     z-index: -5;
     flex: 1;
-    position: absolute;
-    height: 14vh;
-    width: 100%;
+    position: relative;
+    height: 0px;
+    width: 0px;
+    display: none;
     top: 80vh;
   }
   #person-three {
-    position: inherit;
+    position: absolute;
     margin-left: -30%;
     margin-top: auto;
     height: 100%;
   }
   #arrow-two {
-    position: inherit;
+    position: absolute;
     left: 44%;
     width: 44%;
     rotate: 196deg;
   }
   #shadow-three {
-    position: inherit;
+    position: absolute;
     width: 44%;
     margin-top: 21%;
     margin-left: -29%;

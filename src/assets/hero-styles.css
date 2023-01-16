@@ -120,3 +120,12 @@
   margin-top: 43%;
   z-index: -5;
 }
+@media screen and (max-width: 765px) {
+  .hero-buttons {
+    flex-direction: column;
+    width: 200px;
+  }
+  .hero-btn {
+    text-align: center;
+  }
+}

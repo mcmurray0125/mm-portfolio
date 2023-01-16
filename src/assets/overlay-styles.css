@@ -1,3 +1,40 @@
+.tip-wrapper {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(105, 120, 107, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+  padding: 3vw;
+}
+.tip {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  min-width: 25vw;
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  background-color: var(--grey-color);
+  color: var(--second-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+.dismiss {
+  cursor: pointer;
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  color: var(--second-color);
+  font-size: 1rem;
+}
 .vertical-line {
   border-left: 1px solid rgba(238, 238, 238, 0.1);
   height: calc(100% + 130px);

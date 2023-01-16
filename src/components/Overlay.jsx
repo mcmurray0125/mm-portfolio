@@ -1,8 +1,25 @@
 import "../assets/overlay-styles.css"
 import downArrow from "../assets/down-arrow.png"
 import {Link} from "react-scroll"
+import React, { useEffect } from "react"
+import { useState } from "react"
 
 export default function Overlay() {
+
+    const [tip , setTip] = React.useState(true);
+    
+    function dismissTip() {
+        setTip(!tip)
+    }
+    useEffect(() => {
+        tip?
+        document.body.style.overflowY = "hidden" :
+        document.body.style.overflowY = "auto"
+    },[tip])
+
+    const tipStyle = {
+        display: "none"
+    }
 
     const linkStyle = {
         position: "absolute",
@@ -18,6 +35,14 @@ export default function Overlay() {
 
     return (
         <div className="overlay" id="overlay">
+            <div className="tip-wrapper" style={tip? null : tipStyle}>
+                <div className="tip">
+                    <h3>Hello! Thanks for stopping by 🙂</h3>
+                    <p>just a heads up:</p>
+                    <p>You can use the green sidebar buttons on the left and right side of the page to find more contact information like my GitHub profile, LinkedIn, phone number, and email. Ok, that's all!</p>
+                    <button className="dismiss" onClick={dismissTip}>dismiss</button>
+                </div>
+            </div>
             <div className="vertical-line"></div>
             <div orientation="left" className="left-nav">
                 <ul className="socials">
@@ -48,7 +73,7 @@ export default function Overlay() {
                     </li>
                 </ul>
             </div>
-            <Link to="about-me" spy={true} smooth={true} offset={-100} duration={500} style={linkStyle}><img className="down-arrow" src={downArrow} alt="down-arrow" /></Link>
+            <Link to="about-me" spy={true} smooth={true} offset={0} duration={500} style={linkStyle}><img className="down-arrow" src={downArrow} alt="down-arrow" /></Link>
         </div>
     )
 }

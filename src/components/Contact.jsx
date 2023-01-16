@@ -14,9 +14,9 @@ export default function Contact() {
                     <h1 id="c-title-2" className="contact-title">mind?</h1>
                 </div>
                 <div className="contact-images">
+                    <img id='shadow-three' src={shadow} alt="shadow-3" />
                     <img id='person-three' src={personThree} alt="person-3" />
                     <img id='arrow-two' src={arrowTwo} alt="arrow-2" />
-                    <img id='shadow-three' src={shadow} alt="shadow-3" />
                 </div>
             </div>
             <form className="form" method="POST" data-netlify="true" name="contact">
