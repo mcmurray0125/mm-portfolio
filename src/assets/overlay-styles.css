@@ -55,7 +55,7 @@
 .my-info li a {
   writing-mode: vertical-rl;
   text-decoration: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "PT Mono", "Times New Roman", Times, serif;
 }
 .socials li i {
   font-size: 20px;

@@ -134,6 +134,9 @@ $ratio: 56.25%;
 }
 
 @media only screen and (max-width: 450px) {
+    .projects {
+        height: auto;
+    }
     .cards-container {
         max-height: 100%;
         width: 84%;
@@ -170,7 +173,7 @@ $ratio: 56.25%;
     grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
     overflow-y: scroll;
     max-height: 100%;
-    max-width: 50%;
+    max-width: 60%;
     border-radius: 0.5rem;
     }
     .card-btn {
