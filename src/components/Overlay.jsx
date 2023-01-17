@@ -6,20 +6,32 @@ import { useState } from "react"
 
 export default function Overlay() {
 
-    const [tip , setTip] = React.useState(true);
+    const [isFirstTime, setIsFirstTime] = useState(() => JSON.parse(localStorage.getItem("visited")) || false);
+
+    useEffect(() => {
+      const visited = localStorage.getItem('visited');
+      if (visited) {
+        setIsFirstTime(false);
+      } else {
+        setIsFirstTime(true)
+      }
+    }, []);
     
     function dismissTip() {
-        setTip(!tip)
+        setIsFirstTime(false)
+        localStorage.setItem('visited', true);
     }
     useEffect(() => {
-        tip?
+        isFirstTime?
         document.body.style.overflowY = "hidden" :
         document.body.style.overflowY = "auto"
-    },[tip])
+    },[isFirstTime])
 
-    const tipStyle = {
+    const hideTip = {
         display: "none"
     }
+
+    console.log(isFirstTime)
 
     const linkStyle = {
         position: "absolute",
@@ -35,11 +47,11 @@ export default function Overlay() {
 
     return (
         <div className="overlay" id="overlay">
-            <div className="tip-wrapper" style={tip? null : tipStyle}>
+            <div className="tip-wrapper" style={isFirstTime? null : hideTip}>
                 <div className="tip">
                     <h3>Hello! Thanks for stopping by 🙂</h3>
                     <p>just a heads up:</p>
-                    <p>You can use the green sidebar buttons on the left and right side of the page to find more contact information like my GitHub profile, LinkedIn, phone number, and email. Ok, that's all!</p>
+                    <p>Use the right + left green sidebars to see additional contact info and social links!</p>
                     <button className="dismiss" onClick={dismissTip}>dismiss</button>
                 </div>
             </div>
