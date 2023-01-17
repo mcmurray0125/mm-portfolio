@@ -21,11 +21,13 @@ export default function Overlay() {
         setIsFirstTime(false)
         localStorage.setItem('visited', true);
     }
-    useEffect(() => {
+
+    //Disables scrolling when popup is displayed
+/*     useEffect(() => {
         isFirstTime?
         document.body.style.overflowY = "hidden" :
         document.body.style.overflowY = "auto"
-    },[isFirstTime])
+    },[isFirstTime]) */
 
     const hideTip = {
         display: "none"
