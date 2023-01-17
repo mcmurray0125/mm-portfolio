@@ -10,13 +10,21 @@
   border-bottom: 1px solid rgba(238, 238, 238, 0.1);
   z-index: 100;
 }
+.brand {
+  display: flex;
+  padding-left: 96px;
+  margin-right: auto;
+  gap: 0.5vw;
+}
+.mm-logo {
+  width: 60px;
+  height: 60px;
+}
 .nav-brand {
   font-family: "Oswald", sans-serif;
-  margin-right: auto;
   color: var(--second-color);
   font-weight: 700;
   font-size: 1.5rem;
-  padding-left: 96px;
 }
 
 .nav-links {
@@ -45,22 +53,22 @@
   background-color: #0067306f;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 765px) {
   .nav-container {
     justify-content: center;
     flex-direction: column;
   }
-  
-  .nav-brand {
+
+  .brand {
     margin-right: 0px;
     padding-left: 0px;
   }
-  
+
   .nav-links {
     padding-right: 0px;
   }
-  
+
   .nav-links a {
     margin-left: 0px;
   }
-  }
+}

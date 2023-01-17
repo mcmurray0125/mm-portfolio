@@ -33,7 +33,9 @@ export default function AboutMe() {
                 <h1 id="about"className="about-me-title">About</h1>
                 <h1 id="me"className="about-me-title">me</h1>
                 <div className="about-me-info" style={scrolled}>
-                    <p>As an enthusiastic software developer, I have a diverse background in art teaching. I always had a love for technology and a passion for learning new things. When I decided to start coding, it felt like it was the perfect fit for my interests and personality. Through my development experience, I have realized that coding can be a highly creative process, as it allows me to build and design my own creations through code.</p>
+                    <p>Hello! My name is Michael, and I enjoy building things for the internet and its visitors. My interest in technology and computers stems as far back as I can remember. My first glimpse into programming was when I created custom keyframe expression in Adobe After Effects.</p>
+                    <br />
+                    <p>Being an educator, I am naturally curious and know how to work towards measurable goals. Through my developement experience, I have enjoyed using various technologies, and I have been priveleged to work in the open-source community as well.</p>
                 </div>
                 <img id="note" src={musicNote} alt="note" />
                 <img id="arrow" src={arrow} alt="arrow1" />
