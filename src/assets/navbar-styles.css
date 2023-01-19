@@ -46,17 +46,24 @@
   transition: border 0.15s, border-radius 0.15s, background-color 1.2s,
     transform 0.15s;
 }
+.nav-links #resume {
+  color: var(--main-color);
+}
 .nav-links a:hover {
   transform: scale(1.1);
   border: 1px solid var(--main-color);
   border-radius: 4px;
   background-color: #0067306f;
 }
+.nav-links #resume:hover {
+  background-color: transparent;
+}
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 887px) {
   .nav-container {
     justify-content: center;
     flex-direction: column;
+    gap: 0.4rem;
   }
 
   .brand {

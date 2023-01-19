@@ -41,13 +41,16 @@
   transition: border 0.15s, border-radius 0.15s, background-color 1.2s,
     transform 0.15s;
 }
+.footer-links #resume-footer {
+  border: 1px solid var(--main-color);
+}
 .footer-links a:hover {
   transform: scale(1.1);
   border: 1px solid var(--main-color);
   background-color: #0067306f;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 750px) {
   .footer {
     gap: 2vh;
   }

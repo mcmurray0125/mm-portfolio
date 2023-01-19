@@ -10,7 +10,7 @@ export default [
     {
         id: 2,
         title: "Tenzies",
-        about: "In Tenzies, you win when all 10 of your dice are the same number! You can click on a die to hold its current value. All dice that are not held will be re-rolled when you click 'Roll Dice'. There's a counter to show how many rolls you used and a record tracker to save your best game. How fast can you get tenzies! Made with React.js",
+        about: "Tenzies is a game where the goal is to match all 10 dice to the same number. Players can hold certain dice and re-roll the rest by clicking 'Roll Dice'. There is also a roll count and best game record tracker. How fast can you get Tenzies? Built with React.js",
         img: '/images/tenzies-img.png',
         link: "https://mm-tenzies.netlify.app",
         github: "https://github.com/mcmurray0125/tenzies-game"
@@ -18,7 +18,7 @@ export default [
     {
         id: 3,
         title: "Fabchat",
-        about: "Fabchat is an online messaging platform. I am a contributing software developer for Fabchat. My most recent contribution to the platform was creating a new design theme for the web app. Currently, I am utilizing Tailwind CSS to make the platform's dashboard mobile-friendly.",
+        about: "As a software developer for Fabchat, an online messaging platform, I have recently created a new design theme for the web application. Currently, I am working on making the dashboard mobile-friendly using the Tailwind CSS framework.",
         img: '/images/fabchat-img.png',
         link: "https://fabchat.vercel.app/login",
         github: "https://github.com/harshjohar/fabchat" ,
