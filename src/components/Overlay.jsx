@@ -51,10 +51,9 @@ export default function Overlay() {
         <div className="overlay" id="overlay">
             <div className="tip-wrapper" style={isFirstTime? null : hideTip}>
                 <div className="tip">
-                    <h3>Hello! Thanks for stopping by 🙂</h3>
-                    <p>just a heads up:</p>
+                    <h4>Hello! Thanks for stopping by 🙂</h4>
                     <p>Use the right + left green sidebars to see additional contact info and social links!</p>
-                    <button className="dismiss" onClick={dismissTip}>dismiss</button>
+                    <button className="dismiss" onClick={dismissTip}>X</button>
                 </div>
             </div>
             <div className="vertical-line"></div>
