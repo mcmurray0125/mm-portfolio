@@ -126,7 +126,7 @@ Visit my live portfolio website: <a href="https://michael-murray.netlify.app" ta
 <details open>
   <summary>A walkthrough of the website</summary>
   
-  insert video here
+  portfolio-video.mp4
   
   
 </details>
