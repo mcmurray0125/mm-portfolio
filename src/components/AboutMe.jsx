@@ -38,7 +38,7 @@ export default function AboutMe() {
                 <div className="about-me-info" style={scrolled}>
                     <p>Hello! My name is Michael, and I enjoy building things for the internet and its visitors. My interest in technology and computers stems as far back as I can remember. My first experience with programming was creating custom keyframe expressions in Adobe After Effects.</p>
                     <br />
-                    <p>As an educator, I am naturally curious and love in working on new projects. Through my developement experience, I enjoy using various technologies, like React, HTML, & CSS, and I am grateful to have also been a part of the open-source community.</p>
+                    <p>As an educator, I am naturally curious and love working towards new goals. Through my developement experience, I have enjoyed using various technologies, like React, HTML, & CSS, and I am grateful to have contributed to the open-source community as well.</p>
                 </div>
                 <img id="note" src={musicNote} alt="note" />
                 <img id="arrow" src={arrow} alt="arrow1" />
