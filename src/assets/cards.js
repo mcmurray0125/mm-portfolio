@@ -11,7 +11,7 @@ export default [
         id: 2,
         title: "Tenzies",
         about: "Tenzies is a game where the goal is to match all 10 dice to the same number. Players can hold certain dice and re-roll the rest by clicking 'Roll Dice'. There is also a roll count and best game record tracker. How fast can you get Tenzies? Built with React.js",
-        img: '/images/tenzies-img.png',
+        img: '/images/tenzies-img-two.png',
         link: "https://mm-tenzies.netlify.app",
         github: "https://github.com/mcmurray0125/tenzies-game"
     },
