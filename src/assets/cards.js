@@ -1,5 +1,13 @@
 export default [
     {
+        id: 0,
+        title: "MyMoovs",
+        about: "Movie database website for searching and saving movies. Post comments on movies to keep track of your thoughts. Login as a demo-user or create an account. Made with React.js",
+        img: 'images/my-moovs-img.png',
+        link: "https://fancy-dusk-736da9.netlify.app/",
+        github: "https://github.com/mcmurray0125/my-moovs"
+    },
+    {
         id: 1,
         title: "To-do App",
         about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and create todo items in each list. Your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access.",
