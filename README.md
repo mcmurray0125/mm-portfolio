@@ -77,7 +77,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/mcmurray0125/mm-portfolio)
 
-Welcome to my developer portfolio website! It was thrilling to use React.js to build a website that showcases the most incredible thing in the world: myself. Just kidding 😁, but really, watching this project come together and having design inspiration from Figma was so rewarding and satisfying. Feel free to check out the source code or the live version of the site in the links above.
+Welcome to my developer portfolio website! It was amazing to watch this website come together on React. Working with design inspiration from Figma made the process of styling the website very streamlined. Feel free to check out the source code or the live version of the site in the links above.
 
 _Featured Sections of my website:_
 
