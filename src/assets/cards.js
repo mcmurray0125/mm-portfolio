@@ -2,15 +2,15 @@ export default [
     {
         id: 0,
         title: "MyMoovs",
-        about: "Movie database website for searching and saving movies. Post comments on movies to keep track of your thoughts. Login as a demo-user or create an account. Made with React.js",
+        about: "Do you love movies? Do you have a place to save and write about them? That's why I built MyMoovs using React.js, Firebase backend, and CSS Bootstrap. MyMoovs lets you save, comment, and search for movies. Log in as a demo user, or create an account to start your cinematic journal.",
         img: 'images/my-moovs-img.png',
-        link: "https://fancy-dusk-736da9.netlify.app/",
+        link: "https://mymoovs.netlify.app/",
         github: "https://github.com/mcmurray0125/my-moovs"
     },
     {
         id: 1,
         title: "To-do App",
-        about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and create todo items in each list. Your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access.",
+        about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS reponsnive design.",
         img: 'images/todo-app-img.png',
         link: "https://mm-todo-app.netlify.app/",
         github: "https://github.com/mcmurray0125/todo-list#readme"
@@ -42,7 +42,7 @@ export default [
     {
         id: 5,
         title: "MM Portfolio Website",
-        about: "This is the website you are currently on right now! I built this website using HTML, CSS and React.js",
+        about: "This is the website you are currently on right now! I built this website using React.js, HTML, and CSS.",
         img: '/images/portfolio-img-2.png',
         link: '#',
         github: "https://github.com/mcmurray0125/mm-portfolio"
