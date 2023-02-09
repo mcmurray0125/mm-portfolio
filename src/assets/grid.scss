@@ -172,8 +172,8 @@ $ratio: 56.25%;
     .cards-container{
     // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr ));
     grid-template-columns: repeat(auto-fill, minmax(100%, $maxWidth));
-    overflow-y: scroll;
     max-height: 100%;
+    overflow: hidden;
     max-width: 60%;
     border-radius: 0.5rem;
     }

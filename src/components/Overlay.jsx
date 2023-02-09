@@ -8,6 +8,7 @@ export default function Overlay() {
 
     const [isFirstTime, setIsFirstTime] = useState(() => JSON.parse(localStorage.getItem("visited")) || false);
 
+    //If first time visiting site, display message
     useEffect(() => {
       const visited = localStorage.getItem('visited');
       if (visited) {
@@ -22,18 +23,9 @@ export default function Overlay() {
         localStorage.setItem('visited', true);
     }
 
-    //Disables scrolling when popup is displayed
-/*     useEffect(() => {
-        isFirstTime?
-        document.body.style.overflowY = "hidden" :
-        document.body.style.overflowY = "auto"
-    },[isFirstTime]) */
-
     const hideTip = {
         display: "none"
     }
-
-    console.log(isFirstTime)
 
     const linkStyle = {
         position: "absolute",

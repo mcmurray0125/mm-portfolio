@@ -1,0 +1,51 @@
+.skills {
+  padding-left: var(--section-padding);
+  padding-right: var(--section-padding);
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  border: 1px solid rgba(238, 238, 238, 0.1);
+}
+.skills h1 {
+  margin-top: 2vh;
+  font-size: var(--section-fs);
+  color: var(--second-color);
+  width: 100%;
+  text-align: center;
+}
+.skills-grid {
+  height: auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5vh;
+  padding: 3vh 10vw 3vh 10vw;
+}
+.skill {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(200deg, var(--main-color), transparent);
+  box-shadow: -3px 7px 15px rgb(19, 19, 19);
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+.skill:hover {
+  transform: scale(1.05);
+}
+.skill-icon {
+  font-size: 5vh;
+  color: var(--second-color);
+}
+.skill p {
+  color: var(--second-color);
+}
+
+@media screen and (max-width: 500px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
