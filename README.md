@@ -90,13 +90,12 @@ _Featured Sections of my website:_
 - Page overlay to aid in aesthetic flow and UI.
 - Welcome message that only displays on first visit.
 
-After learning JS fundamentals, I used a walkthrough video that showed me how to build the basic skeleton of the mm-portfolio web app. At the end of the video, I thought "This is ok, but I want mine to look like that! (looking at Google's Shopping List web app)". So, that was task from that day on. I spent the next month creating my Google Shopping List inspired mm-portfolio, adding as much functionalty as I could.
 
 _Things I learned building this project:_
 
 - Design Sense + Responsive layout
 - Using accent images and maintaining their relative position
-- Importing packages for increased functionality (react-scroll...)
+- Importing npm packages for increased functionality (react-scroll...)
 - Importance of using percentages in a responsive layout.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
