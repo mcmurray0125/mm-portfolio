@@ -8,6 +8,14 @@ export default [
         github: "https://github.com/mcmurray0125/my-moovs"
     },
     {
+        id: 4,
+        title: "QuizMoov",
+        about: "Quiz web-app created with React JavaScript, HTML, CSS, and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
+        img: '/images/quizmoov-img.png',
+        link: "https://quizmoov.netlify.app/",
+        github: "https://github.com/mcmurray0125/movie-quotes"
+    },
+    {
         id: 1,
         title: "To-do App",
         about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS reponsnive design.",
@@ -30,14 +38,6 @@ export default [
         img: '/images/fabchat-img.png',
         link: "https://fabchat.vercel.app/login",
         github: "https://github.com/harshjohar/fabchat" ,
-    },
-    {
-        id: 4,
-        title: "Meme Creator",
-        about: "Create your own meme with this API fetching meme generator! When 'Get new image' is clicked, React fetches an meme image from a remote database and displays it in the web app. You can instantly update the top & bottom text to create a fun meme.",
-        img: '/images/meme-generator-img.png',
-        link: "https://mm-meme-generator.netlify.app/",
-        github: "https://github.com/mcmurray0125/meme-generator"
     },
     {
         id: 5,
