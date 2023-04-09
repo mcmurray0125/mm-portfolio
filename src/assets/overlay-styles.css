@@ -7,9 +7,6 @@
   font-size: 0.8rem;
   bottom: 1rem;
   left: 1rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
   width: 280px;
   height: auto;
   opacity: 0.98;

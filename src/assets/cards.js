@@ -10,7 +10,7 @@ export default [
     {
         id: 1,
         title: "QuizMoov",
-        about: "Quiz web-app created with React JavaScript, HTML, CSS, and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
+        about: "Quiz app created with React JavaScript, HTML, CSS, and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
         img: '/images/quizmoov-img.png',
         link: "https://quizmoov.netlify.app/",
         github: "https://github.com/mcmurray0125/movie-quotes"
@@ -18,7 +18,7 @@ export default [
     {
         id: 2,
         title: "To-do App",
-        about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS reponsnive design.",
+        about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS responsive design.",
         img: 'images/todo-app-img.png',
         link: "https://mm-todo-app.netlify.app/",
         github: "https://github.com/mcmurray0125/todo-list#readme"
