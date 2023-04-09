@@ -1,13 +1,12 @@
 import '../assets/projects-styles.css'
 import data from '../assets/cards'
-import '../assets/grid.scss'
-import Card from './Card'
+import ProjectCard from './ProjectCard'
 
 export default function Projects() {
 
     const cardElements = data.map((item) => {
         return (
-            <Card
+            <ProjectCard
                 key={item.id}
                 item={item}
                 />
@@ -20,9 +19,7 @@ export default function Projects() {
                 <h1 id="p-title-1">My recent</h1>
                 <h1 id="p-title-2">projects</h1>
             </div>
-            <div className="cards-container">
-                {cardElements}
-            </div>
+            {cardElements}
         </section>
     )
 }
