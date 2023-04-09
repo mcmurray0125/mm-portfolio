@@ -4,10 +4,24 @@ import "../assets/hero-styles.css"
 import personOne from "../assets/person-1.svg"
 import shadow from "../assets/shadow.svg"
 import doodleCircle  from '../assets/doodle-circle.svg'
+import downArrow from "../assets/down-arrow.png"
 import {Link} from 'react-scroll'
 import curlyArrow from "../assets/curly-arrow.svg"
 
 export default function Hero() {
+
+    const linkStyle = {
+        position: "absolute",
+        cursor: "pointer",
+        height: "96px",
+        width: "96px",
+        bottom: "20%",
+        left: "35%",
+        marginRight: "10px",
+        transform: "translate(-50%, 0)",
+        zIndex: "500",
+    }
+
     return(
     <div className="hero">
         <div className="hero-text">
@@ -26,6 +40,7 @@ export default function Hero() {
             <img id="doodle-circle" src={doodleCircle} alt="doodle-circle" />
             <img id="shadow" src={shadow} alt="shadow" />
         </div>
+        <Link to="about-me" spy={true} smooth={true} offset={0} duration={500} style={linkStyle}><img className="down-arrow" src={downArrow} alt="down-arrow" /></Link>
     </div>
     )
 }

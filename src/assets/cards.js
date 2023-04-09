@@ -8,7 +8,7 @@ export default [
         github: "https://github.com/mcmurray0125/my-moovs"
     },
     {
-        id: 4,
+        id: 1,
         title: "QuizMoov",
         about: "Quiz web-app created with React JavaScript, HTML, CSS, and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
         img: '/images/quizmoov-img.png',
@@ -16,7 +16,7 @@ export default [
         github: "https://github.com/mcmurray0125/movie-quotes"
     },
     {
-        id: 1,
+        id: 2,
         title: "To-do App",
         about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS reponsnive design.",
         img: 'images/todo-app-img.png',
@@ -24,7 +24,7 @@ export default [
         github: "https://github.com/mcmurray0125/todo-list#readme"
     },
     {
-        id: 2,
+        id: 3,
         title: "Tenzies",
         about: "Tenzies is a game where the goal is to match all 10 dice to the same number. Players can hold certain dice and re-roll the rest by clicking 'Roll Dice'. There is also a roll count and best game record tracker. How fast can you get Tenzies? Built with React.js",
         img: '/images/tenzies-img-two.png',
@@ -32,7 +32,7 @@ export default [
         github: "https://github.com/mcmurray0125/tenzies-game"
     },
     {
-        id: 3,
+        id: 4,
         title: "Fabchat",
         about: "As a software developer for Fabchat, an online messaging platform, I have recently created a new design theme for the web application. Currently, I am working on making the dashboard mobile-friendly using the Tailwind CSS framework.",
         img: '/images/fabchat-img.png',

@@ -13,9 +13,11 @@ export default function AboutMe() {
     const [scrolled, setScrolled] = React.useState({opacity: 0})
     
     const listenScrollEvent = (event) => {
-      if (window.scrollY < 750) {
+      const aboutMe = document.getElementById('about-me')
+      const aboutMePosition = aboutMe.getBoundingClientRect().top
+      if (window.scrollY < aboutMePosition) {
         return setScrolled({opacity: 0})
-      } else if (window.scrollY > 749) {
+      } else if (window.scrollY >= aboutMePosition) {
         return setScrolled({opacity: 1})
       } 
     }

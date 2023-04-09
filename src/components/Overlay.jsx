@@ -1,6 +1,4 @@
 import "../assets/overlay-styles.css"
-import downArrow from "../assets/down-arrow.png"
-import {Link} from "react-scroll"
 import React, { useEffect } from "react"
 import { useState } from "react"
 
@@ -25,18 +23,6 @@ export default function Overlay() {
 
     const hideTip = {
         display: "none"
-    }
-
-    const linkStyle = {
-        position: "absolute",
-        cursor: "pointer",
-        height: "96px",
-        width: "96px",
-        top: "18%",
-        left: "35%",
-        marginRight: "10px",
-        transform: "translate(-50%, 0)",
-        zIndex: "500",
     }
 
     return (
@@ -78,7 +64,6 @@ export default function Overlay() {
                     </li>
                 </ul>
             </div>
-            <Link to="about-me" spy={true} smooth={true} offset={0} duration={500} style={linkStyle}><img className="down-arrow" src={downArrow} alt="down-arrow" /></Link>
         </div>
     )
 }

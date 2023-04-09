@@ -44,21 +44,30 @@
 .card {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 4dvw;
   width: 100%;
+  max-width: 1600px;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
   backdrop-filter: blur(2px);
-  border-radius: 8px;
   overflow: hidden;
   position: relative;
   box-shadow: 0px 0px 8px rgb(18, 18, 18);
 }
 .card-assets {
   max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 2;
+  gap: 0.5rem;
+}
+.card-assets img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 .card-about {
   display: flex;
@@ -66,9 +75,10 @@
   align-items: center;
   gap: 1rem;
   flex: 1;
+  max-width: 600px;
 }
-.card-assets img {
-  width: 100%;
+.about-text {
+  font-size: 20px;
 }
 .card-btn-wrapper {
   display: flex;
@@ -91,9 +101,52 @@
 }
 .card-title {
   color: var(--second-color);
+  font-size: 28px;
   text-shadow: 0px 4px 8px rgb(0 0 0 / 50%);
 }
 .about-text {
   color: var(--second-color);
   text-align: center;
+}
+
+@media screen and (max-width: 625px) {
+  .card {
+    flex-direction: column !important;
+  }
+  .card-assets {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .about-text {
+    font-size: 14px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-btn {
+    font-size: 14px;
+  }
+  .card-about {
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 791px) and (max-width: 1200px) {
+  .about-text {
+    font-size: 16px;
+  }
+  .card-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-btn {
+    font-size: 20px;
+  }
+  .card-about {
+    gap: 3rem;
+  }
 }
