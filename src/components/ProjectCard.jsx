@@ -14,9 +14,6 @@ export default function ProjectCard(props) {
             if (top < windowHeight && bottom > 0) {
                 setOpacity(1);
                 setTranslateX(0);
-            } else {
-                setOpacity(0);
-                setTranslateX(props.item.id % 2 === 0 ? window.innerWidth : window.innerWidth * -1);
             }
         };
 
