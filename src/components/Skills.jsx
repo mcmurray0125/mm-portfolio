@@ -11,6 +11,14 @@ export default function Skills() {
                     <p>React.js</p>
                 </span>
                 <span className='skill'>
+                    <i className="fa-brands fa-bootstrap skill-icon"></i>
+                    <p>Bootstrap</p>
+                </span>
+                <span className='skill'>
+                    <i className="fa-brands fa-node-js skill-icon"></i>
+                    <p>Node.js</p>
+                </span>
+                <span className='skill'>
                     <i className="fa-brands fa-css3-alt skill-icon"></i>
                     <p>CSS</p>
                 </span>
@@ -21,10 +29,6 @@ export default function Skills() {
                 <span className='skill'>
                     <i className="fa-brands fa-html5 skill-icon"></i>
                     <p>HMTL5</p>
-                </span>
-                <span className='skill'>
-                    <i className="fa-brands fa-bootstrap skill-icon"></i>
-                    <p>Bootstrap</p>
                 </span>
         </div>
     </section>
