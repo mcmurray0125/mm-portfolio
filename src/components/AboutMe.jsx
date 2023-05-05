@@ -1,5 +1,5 @@
 import personTwo from "../assets/person-2.svg"
-import mmImage from "../assets/mm-pic-4.jpg"
+import mmImage from "../assets/mm-pic-2.jpg"
 import shadow from "../assets/shadow.svg"
 import doodleTile from "../assets/doodle-tile.svg"
 import "../assets/aboutme-styles.css"
@@ -40,7 +40,7 @@ export default function AboutMe() {
                 <div className="about-me-info" style={scrolled}>
                     <p>Hello! My name is Michael, and I enjoy building things for the internet and its visitors. My interest in tech and computers stems as far back as I can remember. My first experience with programming was creating custom keyframe expressions in Adobe After Effects.</p>
                     <br />
-                    <p>I have a naturally curious personality and love working towards new goals. Through my development experience, I have enjoyed using various technologies like React, HTML, & Bootstrap, and I am grateful to have contributed to the open-source community as well.</p>
+                    <p>I have a naturally curious personality and love working towards new goals. Through my development experience, I have enjoyed using technologies like React, PostgreSQL, Node.js, HTML, Bootstrap, and I am grateful to have contributed to the open-source community as well.</p>
                 </div>
                 <img id="note" src={musicNote} alt="note" />
                 <img id="arrow" src={arrow} alt="arrow1" />

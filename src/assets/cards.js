@@ -10,7 +10,7 @@ export default [
     {
         id: 1,
         title: "QuizMoov",
-        about: "Quiz app created with React JavaScript, HTML, CSS, and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
+        about: "Quiz app created with React JavaScript, HTML, CSS, Chart.js and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
         img: '/images/quizmoov-img.png',
         link: "https://quizmoov.netlify.app/",
         github: "https://github.com/mcmurray0125/movie-quotes"

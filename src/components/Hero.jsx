@@ -30,8 +30,8 @@ export default function Hero() {
                 <h1 className="title2">SOFTWARE DEVELOPER</h1>
             </div>
             <div className="hero-buttons">
-                <Link to="projects" spy={true} smooth={true} offset={50} duration={1000} className="hero-btn" id="project-btn">Projects &nbsp; <i className="fa-solid fa-screwdriver-wrench"></i></Link>
                 <Link to="contact" spy={true} smooth={true} offset={50} duration={1200} className="hero-btn" id="lets-talk">Let's Talk </Link >
+                <Link to="projects" spy={true} smooth={true} offset={50} duration={1000} className="hero-btn" id="project-btn">Projects &nbsp; <i className="fa-solid fa-screwdriver-wrench"></i></Link>
             </div>
             <img id='curly-arrow' src={curlyArrow} alt="curly-arrow" />
         </div>
