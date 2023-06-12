@@ -9,6 +9,14 @@ export default [
     },
     {
         id: 1,
+        title: "BugHive",
+        about: "BugHive is a secure, full stack ticket-managing web app. It uses Node.js, Express, PostgreSQL, and React. The mobile-responsive UI is elegant and simple. Users can create projects, assign tickets, collaborate via comments, and edit project and user info. BugHive enhances productivity and streamlines project management within organizations.",
+        img: '/images/bughive-img.png',
+        link: "https://github.com/mcmurray0125/bugtracker",
+        github: "https://github.com/mcmurray0125/bugtracker"
+    },
+    {
+        id: 2,
         title: "QuizMoov",
         about: "Quiz app created with React JavaScript, HTML, CSS, Chart.js and Google Firebase backend. See if you can guess what movie the quote is from! Track your score in the results page! Login with Google or as demo user.",
         img: '/images/quizmoov-img.png',
@@ -16,7 +24,7 @@ export default [
         github: "https://github.com/mcmurray0125/movie-quotes"
     },
     {
-        id: 2,
+        id: 3,
         title: "To-do App",
         about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS responsive design.",
         img: 'images/todo-app-img.png',
@@ -24,7 +32,7 @@ export default [
         github: "https://github.com/mcmurray0125/todo-list#readme"
     },
     {
-        id: 3,
+        id: 4,
         title: "React-Magma",
         about: "React-Magma is an open source NPM package design-system (like Bootstrap) created by the company Cengage. I have fixed multiple issues in the system that are merged into the dev branch. I continue to contribute to react-magma today. ",
         img: '/images/react-magma-img.png',
@@ -32,7 +40,7 @@ export default [
         github: "https://github.com/cengage/react-magma" ,
     },
     {
-        id: 4,
+        id: 5,
         title: "Tenzies",
         about: "Tenzies is a game where the goal is to match all 10 dice to the same number. Players can hold certain dice and re-roll the rest by clicking 'Roll Dice'. There is also a roll count and best-game record tracker. How fast can you get Tenzies? Built with React.js",
         img: '/images/tenzies-img-two.png',
@@ -40,7 +48,7 @@ export default [
         github: "https://github.com/mcmurray0125/tenzies-game"
     },
     {
-        id: 5,
+        id: 6,
         title: "MM Portfolio Website",
         about: "This is the website you are currently on right now! I built this website using React.js, HTML, and CSS.",
         img: '/images/portfolio-img-2.png',
