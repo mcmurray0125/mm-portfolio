@@ -25,11 +25,12 @@ export default [
     },
     {
         id: 3,
-        title: "To-do App",
-        about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS responsive design.",
-        img: 'images/todo-app-img.png',
-        link: "https://mm-todo-app.netlify.app/",
-        github: "https://github.com/mcmurray0125/todo-list#readme"
+        title: "PaddlePulse",
+        about: "PaddlePulse is an app that keeps track of your ping pong rally! React.js sends your device's audio data to Python via Socket.io, where the data is analyzed in real-time to determine whether you hit the ball. How big of a rally can you get? (Still in early development)",
+        img: '/images/paddlepulse-img.png',
+        link: "https://quizmoov.netlify.app/",
+        github: "https://github.com/mcmurray0125/paddle-pulse",
+        video: "https://youtu.be/OpuV3whoAL8"
     },
     {
         id: 4,
@@ -41,6 +42,14 @@ export default [
     },
     {
         id: 5,
+        title: "To-do App",
+        about: "Stay organized with this JavaScript to-do app! Users can create multiple lists and add items in them. Both your lists and items can be renamed + deleted, and you can sort items alphabetically. Your lists are kept safe in local storage for future access. CSS responsive design.",
+        img: 'images/todo-app-img.png',
+        link: "https://mm-todo-app.netlify.app/",
+        github: "https://github.com/mcmurray0125/todo-list#readme"
+    },
+    {
+        id: 6,
         title: "Tenzies",
         about: "Tenzies is a game where the goal is to match all 10 dice to the same number. Players can hold certain dice and re-roll the rest by clicking 'Roll Dice'. There is also a roll count and best-game record tracker. How fast can you get Tenzies? Built with React.js",
         img: '/images/tenzies-img-two.png',
@@ -48,7 +57,7 @@ export default [
         github: "https://github.com/mcmurray0125/tenzies-game"
     },
     {
-        id: 6,
+        id: 7,
         title: "MM Portfolio Website",
         about: "This is the website you are currently on right now! I built this website using React.js, HTML, and CSS.",
         img: '/images/portfolio-img-2.png',
