@@ -10,9 +10,9 @@ export default [
     {
         id: 1,
         title: "BugHive",
-        about: "BugHive is a secure, full stack ticket-managing web app. It uses Node.js, Express, PostgreSQL, and React. The mobile-responsive UI is elegant and simple. Users can create projects, assign tickets, collaborate via comments, and edit project and user info. BugHive enhances productivity and streamlines project management within organizations.",
+        about: "BugHive is a secure, full stack ticket-managing web app. It uses Node.js, Express, PostgreSQL, and React. Deployed on AWS EC2 Ubuntu Linux instance. Users can create projects, assign tickets, collaborate via comments, and edit project and user info. BugHive enhances productivity and streamlines project management within organizations.",
         img: '/images/bughive-img.png',
-        link: "https://github.com/mcmurray0125/bugtracker",
+        link: "https://www.bughive.xyz",
         github: "https://github.com/mcmurray0125/bugtracker"
     },
     {
