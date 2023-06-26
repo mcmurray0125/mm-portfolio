@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link to="about-me" spy={true} smooth={true} offset={0} duration={900} >About Me</Link>
         <Link to="projects" spy={true} smooth={true} offset={0} duration={1200} >Projects</Link>
         <Link to="contact" spy={true} smooth={true} offset={0} duration={1400} >Contact</Link>
-        <a href="https://docs.google.com/document/d/1laak7-aGKTgVdvgkclAjW3ZjTuKtKIrypT48-1sX71Q/edit?usp=sharing" target="_blank" id="resume">Resume</a>
+        <a href="https://docs.google.com/document/d/1VAi3sOhciWHbMwPtNizf_p2_ek8gcsu_A8Bmix5yQWU/edit?usp=sharing" target="_blank" id="resume">Resume</a>
       </div>
     </div>
   );
