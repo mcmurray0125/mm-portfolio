@@ -1,5 +1,5 @@
 import personTwo from "../assets/person-2.svg"
-import mmImage from "../assets/mm-pic-2.jpg"
+import mmImage from "../assets/mm-pic-5.jpg"
 import shadow from "../assets/shadow.svg"
 import doodleTile from "../assets/doodle-tile.svg"
 import "../assets/aboutme-styles.css"
